@@ -1,0 +1,19 @@
+{
+"pages":[
+       "pages/welcome/welcome",
+       "pages/post/post",
+       "pages/orange/orange"    
+],
+
+"plugins":{
+      "sdkPlugin":{
+        "version": "1.10.2",
+        "provider": "wxc6b86e382a1e3294"
+      }
+},
+
+"window":{
+  "navigationBarBackgroundColor":"#ECC0A8"
+}
+
+}
