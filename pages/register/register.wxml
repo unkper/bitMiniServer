@@ -1,0 +1,10 @@
+<!--pages/register/register.wxml-->
+<view class="container">
+<image src="../../images/icon/back.svg" class='back-style'></image>
+<view class="journey-container"><input class="journey" placeholder-class='journey' placeholder='您的昵称'></input></view>
+<view class="journey-container"><input class="journey" placeholder-class='journey' placeholder='您的密码'></input></view>
+<view class="journey-container"><input class="journey" placeholder-class='journey' placeholder='确认密码'></input></view>
+<view class="journey-container"><input class="journey" placeholder-class='journey' placeholder='密保问题'></input></view>
+<view class="journey-container"><input class="journey" placeholder-class='journey' placeholder='问题答案'></input></view>
+<view catchtap='submit' class="journey-button"><text class='journey'>提交</text></view>
+</view>

@@ -1,5 +1,4 @@
 {
-	"miniprogramRoot" : "",
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
@@ -27,8 +26,27 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 2,
+			"list": [
+				{
+					"id": 0,
+					"name": "register",
+					"pathName": "pages/register/register",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mainExp",
+					"pathName": "pages/mainExp/mainExp",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "act",
+					"pathName": "pages/activity/activity",
+					"query": ""
+				}
+			]
 		}
 	}
 }

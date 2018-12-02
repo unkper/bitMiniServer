@@ -1,0 +1,7 @@
+<!--pages/mainExp/mainExp.wxml-->
+<view class='container'>
+<view class = 'journey-button'><text class = 'journey'>寻求帮助</text></view>
+<view class = 'journey-button'><text class = 'journey'>我要帮忙</text></view>
+<view class = 'journey-button'><text class = 'journey'>我的代领快递</text></view>
+<view class = 'journey-button'><text class = 'journey'>我的代领任务</text></view>
+</view>

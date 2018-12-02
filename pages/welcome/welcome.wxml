@@ -1,7 +1,17 @@
 <view class='container'>
   <image class='avatar' src='/images/avatar/avatar-1.png'></image>
-  <text class='motto'>Hello,桔子罐头</text>
+  <text class='motto'>Hello,欢迎使用北理小助手</text>
   <view class='journey-container'>
-    <text class='journey'>开启小程序之旅</text>
+    <input class="journey" placeholder-class='journey' placeholder="请输入用户名"></input>
+  </view>
+  <view class='journey-container'>
+    <input class="journey" placeholder-class='journey' placeholder="请输入密码"></input>
+  </view>
+  <view catchtap='loginFunc' class='journey-button' >
+    <text class ='journey'>点击登录</text>
+  </view>
+  <view class="journey-footer">
+    <text catchtap='registerFunc' class="footer-text">点击注册</text>
+    <text catchtap='missingFunc' class="footer-text">忘记密码</text>
   </view>
 </view>

@@ -1,0 +1,9 @@
+<!--pages/activity/activity.wxml-->
+<import src="item/item-tpl.wxml" />
+<view>
+  <block wx:for="{{postList}}" wx:for-item="item" wx:for-index="idx">
+    <view catchtap="onTapToDetail" data-post-id="{{item.postId}}">
+      <template is="postItemTpl" data="{{...item}}" />
+    </view>
+  </block>
+</view>

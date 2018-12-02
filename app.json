@@ -1,8 +1,22 @@
+
 {
 "pages":[
        "pages/welcome/welcome",
+       "pages/activity/activity",
+       "pages/register/register",
+       "pages/login/login",
        "pages/post/post",
-       "pages/orange/orange"    
+       "pages/detail/detail",
+       "pages/compile/compile",
+       "pages/mainExp/mainExp",
+       "pages/myExp/myExp",
+       "pages/missions/missions",
+       "pages/seekHelp/seekHelp",
+       "pages/help/help",
+       "pages/helpDet/helpDet",
+       "pages/lostMain/lostMain",
+       "pages/settings/settings",
+       "pages/collect/collect"
 ],
 
 "plugins":{
@@ -12,8 +26,37 @@
       }
 },
 
+"tabBar":{
+  "borderStyle":"white",
+  "selectdColor":"#4A6141",
+  "color":"#333",
+  "background-color":"white",
+  "position":"bottom",
+  "list":[{
+    "pagePath":"pages/activity/activity",
+    "text":"活动助手",
+    "iconPath": "images/icon/activity.png",
+    "selectedIconPath": "images/icon/activity.png"
+  },{
+    "pagePath": "pages/mainExp/mainExp",
+    "text": "快递帮领",
+    "iconPath": "images/icon/express.png",
+    "selectedIconPath": "images/icon/express.png"
+  },{
+    "pagePath": "pages/lostMain/lostMain",
+    "text": "失物招领",
+    "iconPath": "images/icon/missing.png",
+    "selectedIconPath": "images/icon/missing.png"
+  },
+  {
+    "pagePath": "pages/collect/collect",
+    "text": "设置",
+    "iconPath": "images/icon/settings.png",
+    "selectedIconPath": "images/icon/settings.png"
+  }]
+},
+
 "window":{
   "navigationBarBackgroundColor":"#ECC0A8"
 }
-
 }
